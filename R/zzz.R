@@ -17,7 +17,7 @@
 .onLoad <- function(libname, pkgname) {
     # This defines the model database
     
-    make_sarima_reg()
+    ## make_sarima_reg()
     
     make_garch_reg()
     
@@ -27,8 +27,8 @@
     
     make_random_walk_reg()
     
-    make_gen_additive_reg()
-    make_gen_additive_reg_stan()
+    ## make_gen_additive_reg()
+    ## make_gen_additive_reg_stan()
     
     make_bsr_reg()
     
